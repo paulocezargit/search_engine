@@ -1,14 +1,14 @@
 @media (min-width: 768px) {
     
-    body{  }
-    section{  }
+    body{ font-size: 16px; }
+    section{ padding:0px; margin:0px; }
 
-    .s-search{  }
+    .s-search{ width: 600px;  position: absolute; transform:translate(-50%, -50%); left:50%; top:50%; }
     .s-search-box{  }
-    .s-search-title{  }
-    .s-search-input{  }
-    .s-search-groupbutton{  }
-    .s-search-button{  }
-    .s-search-button{  }
+    .s-search-title{ color: #007acc; font-size: 60px; text-align:center; padding:0px; margin:0px; margin-bottom:40px; text-transform: uppercase; font-weight: 800; }
+    .s-search-input{ width:100%; box-sizing:border-box; padding: 20px 15px; outline:none; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 7px 3px; border:1px solid #007acc; border-radius: 30px; }
+    .s-search-groupbutton{ display: flex; justify-content:center; margin-top:20px; }
+    .s-search-button{ padding: 10px 20px; margin:10px; font-size: 15px; background-color: #dedede; color: #111; border:none; cursor:pointer; border-radius:3px; }
+    .s-search-button:hover{ background-color: #444; color: #fff; }
 
 }

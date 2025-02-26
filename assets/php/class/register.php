@@ -6,6 +6,21 @@ class Register{
 		
 	}
 
+	function Create(){
+
+	}
+
+	function Edit($id_register){
+
+	}
+
+	function Delete($id_register){
+
+	}
+
+	function DeleteAll(){
+
+	}
 
 }
 
