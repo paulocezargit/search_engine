@@ -1,14 +1,23 @@
 @media (min-width: 768px) {
     
-    body{ font-size: 16px; }
+    body{ font-size: 16px; color:#333; }
     section{ padding:0px; margin:0px; }
 
-    .s-search{ width: 600px;  position: absolute; transform:translate(-50%, -50%); left:50%; top:50%; }
+    .s-search{ width: 600px; position: absolute; transform:translate(-50%, -50%); left:50%; top:50%; }
+    .s-search-list{ width: 800px; position: absolute; transform:translateX(-50%); left:50%;  }
     .s-search-box{  }
     .s-search-title{ color: #007acc; font-size: 60px; text-align:center; padding:0px; margin:0px; margin-bottom:40px; text-transform: uppercase; font-weight: 800; }
-    .s-search-input{ width:100%; box-sizing:border-box; padding: 20px 15px; outline:none; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 7px 3px; border:1px solid #007acc; border-radius: 30px; }
+    .s-search-title-list{ color: #007acc; font-size: 40px; text-align:left; padding:0px; margin:0px; margin-left: 20px; margin-bottom:20px; margin-top: 40px; text-transform: uppercase; font-weight: 800; }
+    .s-search-input{ width:100%; box-sizing:border-box; padding: 20px 15px; outline:none; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 7px 3px; border:1px solid #ccc; border-radius: 30px; }
+    .s-search-input:focus{ border: 1px solid #007acc !important;  }
     .s-search-groupbutton{ display: flex; justify-content:center; margin-top:20px; }
     .s-search-button{ padding: 10px 20px; margin:10px; font-size: 15px; background-color: #dedede; color: #111; border:none; cursor:pointer; border-radius:3px; }
     .s-search-button:hover{ background-color: #444; color: #fff; }
+
+    .s-list{ margin-top: 50px;  }
+    .s-list-item{ margin-bottom: 20px; }
+    .s-list-title{ color: #007acc; margin: 0px; padding: 0px; margin-bottom: 2px; font-size: 20px; }
+    .s-list-description{ display:block; font-size: 15px; line-height: 20px; margin-bottom: 5px; margin-top: 5px; }
+    .s-list-link{ color:#777; font-size: 14px; text-decoration:none; }
 
 }
