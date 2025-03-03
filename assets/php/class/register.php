@@ -6,7 +6,7 @@ class Register{
 		
 	}
 
-	function Create(){
+	function Create($name, $url, $description, $keys){
 
 	}
 

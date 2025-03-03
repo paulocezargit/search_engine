@@ -3,7 +3,7 @@
 <section class="s-search-list">
 
 	<section>
-		<form class="s-search-box" accept="search.php" method="GET">
+		<form class="s-search-box" action="search.php" method="GET">
 			<h1 class="s-search-title-list">Search Engine</h1>
 			<input class="s-search-input" type="text" placeholder="Type something...">
 		</form>
