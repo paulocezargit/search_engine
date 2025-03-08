@@ -20,4 +20,19 @@
     .s-list-description{ display:block; font-size: 15px; line-height: 20px; margin-bottom: 5px; margin-top: 5px; }
     .s-list-link{ color:#777; font-size: 14px; text-decoration:none; }
 
+
+    .s-manager{ width: 600px; position: absolute; transform:translate(-50%, -50%); left:50%; top:50%;  }
+    .s-manager-box{  padding:50px; box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px; border-radius: 10px; }
+    .s-manager-title{ padding:0px; margin:0px; font-size: 30px; margin-bottom:20px; }
+    .s-manager-group{ margin-bottom:15px; }
+    .s-manager-label{ margin-bottom:5px; display:block; font-size:14px; font-weight: bold; color:#555; }
+    .s-manager-input{ width: 100%; font-size: 15px; box-sizing:border-box; padding: 13px 10px; border-radius: 3px; border:1px solid #ccc; outline:none; box-shadow:none;  }
+    .s-manager-input:focus{ border:1px solid #007acc; }
+    .s-manager-textarea{ width: 100%; font-size: 15px; box-sizing:border-box; padding:13px 10px; border-radius: 3px; border:1px solid #ccc; resize:none; outline:none; box-shadow:none;  }
+    .s-manager-textarea:focus{ border:1px solid #007acc; }
+    .s-manager-align{ display:flex; justify-content:center; margin-top:20px; }
+    .s-manager-button{ cursor: pointer; font-size:18px; padding:18px 80px; background-color: #007acc; color:#fff; border: none; border-radius: 4px; outline:none; box-shadow:none; }
+    .s-manager-button:hover{ background-color: #006bb3; } 
+    .s-manager-button:active{ background-color: #007acc; } 
+
 }
