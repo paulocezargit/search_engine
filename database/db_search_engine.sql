@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 03-Mar-2025 às 15:03
+-- Tempo de geração: 10-Mar-2025 às 02:06
 -- Versão do servidor: 10.4.27-MariaDB
 -- versão do PHP: 8.0.25
 
@@ -38,6 +38,13 @@ CREATE TABLE `tb_register` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
+-- Extraindo dados da tabela `tb_register`
+--
+
+INSERT INTO `tb_register` (`id`, `name`, `url`, `description`, `site_keys`, `date_create`, `status`) VALUES
+(1, 'google', 'https://www.google.com/', 'The Google website is the leading search engine on the internet and one of the most visited websites in the world. It allows users to quickly find information through keyword-based searches.', 'google, sites, websites, world, search, engine, find', '2025-03-09 22:04:53', 'visible');
+
+--
 -- Índices para tabelas despejadas
 --
 
@@ -55,7 +62,7 @@ ALTER TABLE `tb_register`
 -- AUTO_INCREMENT de tabela `tb_register`
 --
 ALTER TABLE `tb_register`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

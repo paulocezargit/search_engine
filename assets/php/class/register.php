@@ -2,7 +2,7 @@
 
 class Register{
 	
-	function __construct(argument){
+	function __construct(){
 		
 	}
 
